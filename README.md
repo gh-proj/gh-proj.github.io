@@ -1,6 +1,6 @@
 # X Project Template
 
-[![CI](https://github.com/x-pt/x-pt.github.io/workflows/pages/badge.svg)](https://github.com/x-pt/x-pt.github.io/actions)
+[![CI](https://github.com/x-pt/x-pt.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/x-pt/x-pt.github.io/actions)
 
 A template to create an awesome project hosted on GitHub in no time.
 
