@@ -2,23 +2,16 @@
 
 [![CI](https://github.com/x-pt/x-pt.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/x-pt/x-pt.github.io/actions)
 
-A template to create an awesome project hosted on GitHub in no time.
+A streamlined template for quickly setting up projects on GitHub.
 
-## Usage
+## Quick Start
 
-```shell
-cargo generate --git https://github.com/x-pt/template.git template/cxx
+```bash
+# Generate a project template dynamically
+cookiecutter gh:x-pt/template
 
-# or
-cargo generate gh:x-pt/template template/cxx
-
-# or just
-cargo generate x-pt/template template/cxx
-```
-
-## Support Cxx, Go, Python
-
-```shell
-cargo generate gh:x-pt/template template/go
-cargo generate gh:x-pt/template template/py
+# Generate a specific language template
+cookiecutter gh:x-pt/template --directory template/cxx  # C++
+cookiecutter gh:x-pt/template --directory template/go   # Go
+cookiecutter gh:x-pt/template --directory template/py   # Python
 ```
