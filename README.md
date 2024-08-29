@@ -2,17 +2,49 @@
 
 [![CI](https://github.com/x-pt/x-pt.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/x-pt/x-pt.github.io/actions)
 
-A streamlined template for quickly setting up projects on GitHub.
+A streamlined template for rapidly initializing and structuring projects on GitHub.
+
+## Prerequisites
+
+- Python 3.8 or higher
+- cookiecutter
+
+Install Cookiecutter:
+```bash
+pip install cookiecutter
+```
+
+## Features
+
+- Support for multiple programming languages:
+  - C++
+  - Go
+  - Python
+  - TypeScript
+- Pre-configured CI/CD pipeline
+- Best practices for project structure
+- Easy customization options
 
 ## Quick Start
 
+Use the following commands to generate project templates:
+
 ```bash
-# Generate a project template dynamically
+# Generate a dynamic project template
 cookiecutter gh:x-pt/template
 
-# Generate a specific language template
+# Generate language-specific templates
 cookiecutter gh:x-pt/template --directory template/cxx  # C++
 cookiecutter gh:x-pt/template --directory template/go   # Go
 cookiecutter gh:x-pt/template --directory template/py   # Python
 cookiecutter gh:x-pt/template --directory template/ts   # TypeScript
 ```
+
+## Usage
+
+1. Run one of the Quick Start commands above.
+2. Follow the prompts to customize your project.
+3. Navigate to your new project directory.
+4. Start developing with a well-structured project template!
+
+For more detailed information and advanced usage, please visit our [GitHub repository](https://github.com/x-pt).
