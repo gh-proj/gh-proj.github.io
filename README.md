@@ -14,4 +14,5 @@ cookiecutter gh:x-pt/template
 cookiecutter gh:x-pt/template --directory template/cxx  # C++
 cookiecutter gh:x-pt/template --directory template/go   # Go
 cookiecutter gh:x-pt/template --directory template/py   # Python
+cookiecutter gh:x-pt/template --directory template/ts   # TypeScript
 ```
