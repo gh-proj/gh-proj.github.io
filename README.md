@@ -10,6 +10,7 @@ A streamlined template for rapidly initializing and structuring projects on GitH
 - cookiecutter
 
 Install Cookiecutter:
+
 ```bash
 pip install cookiecutter
 ```
@@ -17,10 +18,11 @@ pip install cookiecutter
 ## Features
 
 - Support for multiple programming languages:
-  - C++
-  - Go
-  - Python
-  - TypeScript
+    - CUDA
+    - C++
+    - Go
+    - Python
+    - TypeScript
 - Pre-configured CI/CD pipeline
 - Best practices for project structure
 - Easy customization options
@@ -34,10 +36,11 @@ Use the following commands to generate project templates:
 cookiecutter gh:x-pt/template
 
 # Generate language-specific templates
-cookiecutter gh:x-pt/template --directory template/cxx  # C++
-cookiecutter gh:x-pt/template --directory template/go   # Go
-cookiecutter gh:x-pt/template --directory template/py   # Python
-cookiecutter gh:x-pt/template --directory template/ts   # TypeScript
+cookiecutter gh:x-pt/template --directory template/cuda  # CUDA
+cookiecutter gh:x-pt/template --directory template/cxx   # C++
+cookiecutter gh:x-pt/template --directory template/go    # Go
+cookiecutter gh:x-pt/template --directory template/py    # Python
+cookiecutter gh:x-pt/template --directory template/ts    # TypeScript
 ```
 
 ## Usage
