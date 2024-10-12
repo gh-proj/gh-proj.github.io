@@ -12,7 +12,7 @@ A streamlined template for rapidly initializing and structuring projects on GitH
 Install Cookiecutter:
 
 ```bash
-pip install cookiecutter
+uv tool install cookiecutter    # if no uv, follow this guide: https://docs.astral.sh/uv/
 ```
 
 ## Features
@@ -22,6 +22,7 @@ pip install cookiecutter
     - C++
     - Go
     - Python
+    - Rust
     - TypeScript
 - Pre-configured CI/CD pipeline
 - Best practices for project structure
@@ -40,6 +41,7 @@ cookiecutter gh:x-pt/template --directory template/cuda  # CUDA
 cookiecutter gh:x-pt/template --directory template/cxx   # C++
 cookiecutter gh:x-pt/template --directory template/go    # Go
 cookiecutter gh:x-pt/template --directory template/py    # Python
+cookiecutter gh:x-pt/template --directory template/rs    # Rust
 cookiecutter gh:x-pt/template --directory template/ts    # TypeScript
 ```
 
